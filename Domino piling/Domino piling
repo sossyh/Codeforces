@@ -1,0 +1,7 @@
+x,y=input().split()
+
+def domino_piling(m,n):
+    if(1<=m<=n and m<=n<=16):
+        return ((m*n)//2)
+    
+print(domino_piling(int(x),int(y)))
