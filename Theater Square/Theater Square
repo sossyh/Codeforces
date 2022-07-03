@@ -1,0 +1,7 @@
+
+x,y,z=input().split()
+
+def theater_square(m,n,l):
+    return ((m*n)//(2*l))
+    
+print(theater_square(int(x),int(y),int(z)))
